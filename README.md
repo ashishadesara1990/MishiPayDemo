@@ -1,4 +1,4 @@
-# MishiPayDemo - Mobile Shopping Cart Application
+# MishiPayDemo
 
 MishiPayDemo is a sample Android application designed to demonstrate a streamlined mobile shopping cart experience.
 It leverages modern Android development practices, including MVVM architecture, Jetpack libraries, 
@@ -39,6 +39,7 @@ The application includes a scanner, a cart, and a checkout flow.
     -   **LiveData/StateFlow:** For observing data changes.
     -   **Compose:** For building the UI.
     -   **Navigation:** For managing in-app navigation.
+    -   **Animation:** For adding smooth animations.(Lottie-Compose).
 
 ## Architecture
 
@@ -48,3 +49,7 @@ The application follows the **Model-View-ViewModel (MVVM)** architectural patter
     -   Data classes to hold product and cart information.
 -   **View:** The UI components (Activities, Fragments, Composable functions) that display data and handle user interactions.
 -   **ViewModel:** The bridge between the View and the Model. It exposes data to the View and contains the logic for handling user interactions and data manipulation.
+
+## Video 
+- MishiPayDemo Application flow video.
+- https://drive.google.com/file/d/1K5BMZV4s7QZBDKJpOE64nHNkWNjX_L-0/view?usp=sharing
